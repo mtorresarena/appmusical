@@ -1,37 +1,20 @@
-# Aula Musical Interactiva 🎵
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Una aplicación web educativa diseñada para el aula de música. Permite a los estudiantes explorar las notas musicales, experimentar con diferentes instrumentos y entrenar su oído mediante juegos interactivos.
+# Run and deploy your AI Studio app
 
-## ✨ Características
+This contains everything you need to run your app locally.
 
-- **Instrumentos Virtuales**: Piano, Guitarra y Flauta sintetizados en tiempo real con Web Audio API.
-- **Visualización**: Teclas interactivas con nombres de notas (Do, Re, Mi...) y notación científica.
-- **Juego de Oído**: Modo "Adivina la nota" con sistema de puntuación.
-- **IA Integrada**: Curiosidades musicales generadas por Google Gemini según el instrumento seleccionado.
-- **Diseño Responsivo**: Funciona en pizarras digitales, tablets y ordenadores.
+View your app in AI Studio: https://ai.studio/apps/drive/19GX8WG8333F47Ua3Y3GtUwW6BiiotQI7
 
-## 🛠️ Tecnologías
+## Run Locally
 
-- **React 19**: Biblioteca de UI.
-- **Tailwind CSS**: Estilos y diseño.
-- **Web Audio API**: Síntesis de sonido sin archivos de audio externos.
-- **Google GenAI SDK**: Integración con modelos Gemini para contenido educativo.
+**Prerequisites:**  Node.js
 
-## 🚀 Instalación y Uso
 
-1. Clona el repositorio.
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-3. Configura tu API Key:
-   - Crea un archivo `.env` en la raíz.
-   - Añade tu clave: `API_KEY=tu_clave_de_gemini_aqui`
-4. Inicia la aplicación:
-   ```bash
-   npm start
-   ```
-
-## 📝 Licencia
-
-Este proyecto es de uso educativo y libre.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
